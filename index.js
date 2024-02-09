@@ -20,10 +20,10 @@ function winner(rolledDice){
     var rolledDice1 = rolledDice[0];
     var rolledDice2 = rolledDice[1];
     if (rolledDice1 > rolledDice2){
-        var heading = "Player 1 Wins!";
+        var heading = "🥇Player 1 Wins!";
     }
     else if (rolledDice1 < rolledDice2){
-        var heading = "Player 2 Wins!";
+        var heading = "Player 2 Wins!🥇";
     }
     else{
         var heading = "Draw!"
